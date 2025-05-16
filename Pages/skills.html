@@ -1,36 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="/CSS/style.css" />
 </head>
 <body>
-    <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="/Pages/index.html">Andreia Shin</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="/Pages/about.html">About</a>
-                  <a class="nav-link" href="/Pages/projects.html">Projects</a>
-                  <a class="nav-link" href="/Pages/skills.html">Skills</a>
-                  <a class="nav-link" href="/Pages/contact.html">Contact</a>
-                  <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://github.com/deiaashin2">
-                    <svg class="bi" aria-hidden="true"><use xlink:href="https://github.com/deiaashin2"></use></svg>
-                    <img src="/images/github-mark.png" alt="github" width="27" height="27">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/Pages/index.html">Andreia Shin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="/Pages/index.html">Home</a>
+          <a class="nav-link" href="/Pages/about.html">About</a>
+          <a class="nav-link" href="/Pages/projects.html">Projects</a>
+          <a class="nav-link active" href="/Pages/skills.html">Skills</a>
+          <a class="nav-link" href="/Pages/contact.html">Contact</a>
+        </div>
+        <div class="ms-auto">
+          <a class="nav-link" href="https://github.com/deiaashin2" target="_blank">
+            <img src="/images/github-mark.png" alt="GitHub" width="27" height="27" />
+          </a>
+        </div>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </nav>
+
+  <section class="skills-section text-center">
+    <h1 class="skills-title">Technical Skills</h1>
+    <div class="container">
+      <div class="row justify-content-center text-start">
+
+        <div class="col-md-4 d-flex flex-column align-items-center text-center mb-4">
+          <img src="/images/coding.png" alt="Programming Icon" class="skills-icon">
+          <div>
+            <div class="skill-header">Programming Languages</div>
+            <p class="skill-list">C++, Java, Python, Swift, HTML, CSS</p>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex flex-column align-items-center text-center mb-4">
+          <img src="/images/database.png" alt="Tools Icon" class="skills-icon">
+          <div>
+            <div class="skill-header">Tools & Frameworks</div>
+            <p class="skill-list">Xcode, Core Data, Git, React (basic), MySQL</p>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex flex-column align-items-center text-center mb-4">
+          <img src="/images/art1.png" alt="Design Icon" class="skills-icon">
+          <div>
+            <div class="skill-header">Design Tools</div>
+            <p class="skill-list">Adobe Photoshop, Premiere, Lightroom</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
